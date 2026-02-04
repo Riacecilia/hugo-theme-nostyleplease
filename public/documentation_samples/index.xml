@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Technical Writing Documentation Samples on </title>
+    <link>//localhost:1313/documentation_samples/</link>
+    <description>Recent content in Technical Writing Documentation Samples on </description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="//localhost:1313/documentation_samples/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
