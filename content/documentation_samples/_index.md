@@ -12,6 +12,7 @@ This page outlines selected documentation projects I have worked on.
 
 
 3. Documentation audits
+- [Veryfi documentation audit](/documentation_samples/veryfi_audit)
 
 
 4. Product documentation for the Saas industry

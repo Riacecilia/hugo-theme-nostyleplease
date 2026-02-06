@@ -7,5 +7,12 @@
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="//localhost:1313/documentation_samples/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title> Documentation Audit for Veryfi</title>
+      <link>//localhost:1313/documentation_samples/veryfi_audit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/documentation_samples/veryfi_audit/</guid>
+      <description>&lt;h1 id=&#34;project-details&#34;&gt;Project details&lt;/h1&gt;&#xA;&lt;p&gt;Goal: The goal of this project was to do an audit of the entire product documentation for the company Veryfi.&lt;/p&gt;&#xA;&lt;p&gt;Company background: Veryfi is a business in the financial technology industry. Its products provide intelligent document processing for the finance industry.&lt;/p&gt;&#xA;&lt;p&gt;Deliverable:&#xA;I audited their entire online documentation set (149 pages) for 3 of their products:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Data extractioni API&lt;/li&gt;&#xA;&lt;li&gt;Veryfi Lens for mobile&lt;/li&gt;&#xA;&lt;li&gt;Veryfi lens for browser&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;accomplishments&#34;&gt;Accomplishments&lt;/h1&gt;&#xA;&lt;h1 id=&#34;live-docs-link&#34;&gt;Live docs link&lt;/h1&gt;&#xA;&lt;p&gt;You can &lt;a href=&#34;https://docs.google.com/document/d/1dAB3HAuqQGcxgFCCkJBz3hs63Qx6JmB6xqq1DT4ay5U/edit?usp=sharing&#34;&gt;view the audit report&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
