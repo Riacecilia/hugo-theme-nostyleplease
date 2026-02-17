@@ -5,7 +5,7 @@ draft= false
 
 This page outlines selected documentation projects I have worked on. 
 
-1. API documentation for a mock delivery company
+1. [REST API documentation for a mock delivery company](/documentation_samples/api_mockdelivery)
 
 
 2. Troubleshooting article for household appliances company
