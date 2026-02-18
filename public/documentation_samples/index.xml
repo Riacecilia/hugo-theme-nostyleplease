@@ -15,6 +15,13 @@
       <description>&lt;h1 id=&#34;project-details&#34;&gt;Project details&lt;/h1&gt;&#xA;&lt;p&gt;Goal: The goal of this project was to do an audit of the entire product documentation for the company Veryfi.&lt;/p&gt;&#xA;&lt;p&gt;Company background: Veryfi is a business in the financial technology industry. Its products provide intelligent document processing for the finance industry.&lt;/p&gt;&#xA;&lt;p&gt;Deliverable:&#xA;I audited their entire online documentation set (149 pages) for 3 of their products:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Data extractioni API&lt;/li&gt;&#xA;&lt;li&gt;Veryfi Lens for mobile&lt;/li&gt;&#xA;&lt;li&gt;Veryfi lens for browser&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;accomplishments&#34;&gt;Accomplishments&lt;/h1&gt;&#xA;&lt;h1 id=&#34;live-docs-link&#34;&gt;Live docs link&lt;/h1&gt;&#xA;&lt;p&gt;You can &lt;a href=&#34;https://docs.google.com/document/d/1dAB3HAuqQGcxgFCCkJBz3hs63Qx6JmB6xqq1DT4ay5U/edit?usp=sharing&#34;&gt;view the audit report&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title> Government documentation</title>
+      <link>//localhost:1313/documentation_samples/government_documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/documentation_samples/government_documentation/</guid>
+      <description>&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&lt;p&gt;The National Director General for Aliens Policing is the Hungarian authority that examines foreigners to live in Hungary. Their website  is the official source of documentation that foreigners rely on when making visa, residency, asylum or citizenship applications.&lt;/p&gt;&#xA;&lt;p&gt;In February 2025, the NDGCP issued the following government factsheet/administrative update.It&amp;rsquo;s purpose was to communicate the change in procedure.&lt;/p&gt;&#xA;&lt;p&gt;I noticed the following issues:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Formatting: small font, overuse of bold type, chunky paragraphs&lt;/li&gt;&#xA;&lt;li&gt;Long sentences&lt;/li&gt;&#xA;&lt;li&gt;Lack of structure&lt;/li&gt;&#xA;&lt;li&gt;Unclear who the target is&lt;/li&gt;&#xA;&lt;li&gt;Long and confusing title&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;the-solution&#34;&gt;The Solution&lt;/h2&gt;&#xA;&lt;p&gt;I edited and re-designed the government circular with respect to document design principles.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title> REST API documentation for a mock delivery company</title>
       <link>//localhost:1313/documentation_samples/api_mockdelivery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
