@@ -353,12 +353,12 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
     
 
     <h2 id="test-for-c">Test for C</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#e5e5e5">#define UNICODE
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-c" data-lang="c"><span style="display:flex;"><span><span style="color:#e5e5e5">#define UNICODE
 </span></span></span><span style="display:flex;"><span><span style="color:#e5e5e5">#include</span> <span style="color:#e5e5e5">&lt;windows.h&gt;</span><span style="color:#e5e5e5">
-</span></span></span><span style="display:flex;"><span><span style="color:#e5e5e5"></span> 
+</span></span></span><span style="display:flex;"><span> 
 </span></span><span style="display:flex;"><span><span style="color:#ee82ee">int</span> <span style="color:#ff0">main</span>(<span style="color:#ee82ee">int</span> argc, <span style="color:#ee82ee">char</span> **argv) {
 </span></span><span style="display:flex;"><span>  <span style="color:#ee82ee">int</span> speed = <span style="color:#f60">0</span>, speed1 = <span style="color:#f60">0</span>, speed2 = <span style="color:#f60">0</span>; <span style="color:#0f0">// 1-20
-</span></span></span><span style="display:flex;"><span><span style="color:#0f0"></span>  <span style="color:#ff0">printf</span>(<span style="color:#87ceeb">&#34;Set Mouse Speed by Maverick</span><span style="color:#87ceeb">\n</span><span style="color:#87ceeb">&#34;</span>);
+</span></span></span><span style="display:flex;"><span>  <span style="color:#ff0">printf</span>(<span style="color:#87ceeb">&#34;Set Mouse Speed by Maverick</span><span style="color:#87ceeb">\n</span><span style="color:#87ceeb">&#34;</span>);
 </span></span><span style="display:flex;"><span> 
 </span></span><span style="display:flex;"><span>  <span style="color:#ff0">SystemParametersInfo</span>(SPI_GETMOUSESPEED, <span style="color:#f60">0</span>, &amp;speed, <span style="color:#f60">0</span>);
 </span></span><span style="display:flex;"><span>  <span style="color:#ff0">printf</span>(<span style="color:#87ceeb">&#34;Current speed: %2d</span><span style="color:#87ceeb">\n</span><span style="color:#87ceeb">&#34;</span>, speed);
@@ -368,19 +368,19 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 </span></span><span style="display:flex;"><span>  <span style="color:#f00">if</span> (argc &gt;= <span style="color:#f60">3</span>) <span style="color:#ff0">sscanf</span>(argv[<span style="color:#f60">2</span>], <span style="color:#87ceeb">&#34;%d&#34;</span>, &amp;speed2);
 </span></span><span style="display:flex;"><span> 
 </span></span><span style="display:flex;"><span>  <span style="color:#f00">if</span> (argc == <span style="color:#f60">2</span>) <span style="color:#0f0">// set speed to first value
-</span></span></span><span style="display:flex;"><span><span style="color:#0f0"></span>    speed = speed1;
+</span></span></span><span style="display:flex;"><span>    speed = speed1;
 </span></span><span style="display:flex;"><span>  <span style="color:#f00">else</span> <span style="color:#f00">if</span> (speed == speed1 || speed == speed2) <span style="color:#0f0">// alternate
-</span></span></span><span style="display:flex;"><span><span style="color:#0f0"></span>    speed = speed1 + speed2 - speed;
+</span></span></span><span style="display:flex;"><span>    speed = speed1 + speed2 - speed;
 </span></span><span style="display:flex;"><span>  <span style="color:#f00">else</span>
 </span></span><span style="display:flex;"><span>    speed = speed1;  <span style="color:#0f0">// start with first value
-</span></span></span><span style="display:flex;"><span><span style="color:#0f0"></span> 
+</span></span></span><span style="display:flex;"><span> 
 </span></span><span style="display:flex;"><span>  <span style="color:#ff0">SystemParametersInfo</span>(SPI_SETMOUSESPEED, <span style="color:#f60">0</span>,  speed, <span style="color:#f60">0</span>);
 </span></span><span style="display:flex;"><span>  <span style="color:#ff0">SystemParametersInfo</span>(SPI_GETMOUSESPEED, <span style="color:#f60">0</span>, &amp;speed, <span style="color:#f60">0</span>);
 </span></span><span style="display:flex;"><span>  <span style="color:#ff0">printf</span>(<span style="color:#87ceeb">&#34;New speed:     %2d</span><span style="color:#87ceeb">\n</span><span style="color:#87ceeb">&#34;</span>, speed);
 </span></span><span style="display:flex;"><span>  <span style="color:#f00">return</span> <span style="color:#f60">0</span>;
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h2 id="test-for-java">Test for Java</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f00">import</span> java.util.Map;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#f00">import</span> java.util.Map;
 </span></span><span style="display:flex;"><span><span style="color:#f00">import</span> java.util.TreeSet;
 </span></span><span style="display:flex;"><span> 
 </span></span><span style="display:flex;"><span><span style="color:#f00">public</span> <span style="color:#f00">class</span> GetEnv {
@@ -398,7 +398,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 </span></span><span style="display:flex;"><span>  }    
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h2 id="test-for-perl">Test for Perl</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-perl" data-lang="perl"><span style="display:flex;"><span><span style="color:#0f0">#!perl -w</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-perl" data-lang="perl"><span style="display:flex;"><span><span style="color:#0f0">#!perl -w</span>
 </span></span><span style="display:flex;"><span> 
 </span></span><span style="display:flex;"><span><span style="color:#0f0"># Time-stamp: &lt;2002/04/06, 13:12:13 (EST), maverick, csvformat.pl&gt;</span>
 </span></span><span style="display:flex;"><span><span style="color:#0f0"># Two pass CSV file to table formatter</span>
@@ -432,7 +432,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>close F;
 </span></span></code></pre></div><h2 id="test-for-python">Test for Python</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#0f0"># test python (sample from offlineimap)</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#0f0"># test python (sample from offlineimap)</span>
 </span></span><span style="display:flex;"><span> 
 </span></span><span style="display:flex;"><span><span style="color:#f00">class</span> ExitNotifyThread(Thread):
 </span></span><span style="display:flex;"><span>    <span style="color:#87ceeb">&#34;&#34;&#34;This class is designed to alert a &#34;monitor&#34; to the fact that a thread has
@@ -500,8 +500,8 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 </span></span></span><span style="display:flex;"><span><span style="color:#87ceeb">        set.&#34;&#34;&#34;</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#f00">return</span> self.exitmessage
 </span></span></code></pre></div><h2 id="test-for-bash">Test for Bash</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#e5e5e5">#!/bin/bash
-</span></span></span><span style="display:flex;"><span><span style="color:#e5e5e5"></span>cd <span style="color:#eedd82">$ROOT_DIR</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#e5e5e5">#!/bin/bash
+</span></span></span><span style="display:flex;"><span>cd <span style="color:#eedd82">$ROOT_DIR</span>
 </span></span><span style="display:flex;"><span><span style="color:#eedd82">DOT_FILES</span>=<span style="color:#87ceeb">&#34;lastpass weechat ssh Xauthority&#34;</span>
 </span></span><span style="display:flex;"><span><span style="color:#f00">for</span> dotfile in <span style="color:#eedd82">$DOT_FILES</span>; <span style="color:#f00">do</span> conform_link <span style="color:#87ceeb">&#34;</span><span style="color:#eedd82">$DATA_DIR</span><span style="color:#87ceeb">/</span><span style="color:#eedd82">$dotfile</span><span style="color:#87ceeb">&#34;</span> <span style="color:#87ceeb">&#34;.</span><span style="color:#eedd82">$dotfile</span><span style="color:#87ceeb">&#34;</span>; <span style="color:#f00">done</span>
 </span></span><span style="display:flex;"><span> 
@@ -516,17 +516,17 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 </span></span><span style="display:flex;"><span>            ]];
 </span></span><span style="display:flex;"><span>            <span style="color:#f00">then</span> <span style="color:#0f0"># no difference with current backup</span>
 </span></span><span style="display:flex;"><span>                logger <span style="color:#87ceeb">&#34;</span><span style="color:#eedd82">$LOG_PREFIX</span><span style="color:#87ceeb">: crontab live settings match stored &#34;</span><span style="color:#87ceeb">\
-</span></span></span><span style="display:flex;"><span><span style="color:#87ceeb"></span>                    <span style="color:#87ceeb">&#34;settings; no restore required&#34;</span>
+</span></span></span><span style="display:flex;"><span>                    <span style="color:#87ceeb">&#34;settings; no restore required&#34;</span>
 </span></span><span style="display:flex;"><span>                rm ~/tmp/crontab-conflict-arch
 </span></span><span style="display:flex;"><span>            <span style="color:#f00">else</span> <span style="color:#0f0"># current crontab settings in file do not match live settings</span>
 </span></span><span style="display:flex;"><span>                crontab <span style="color:#eedd82">$ROOT_DIR</span>/<span style="color:#eedd82">$CONF_DIR</span>/cron/crontab-current-arch
 </span></span><span style="display:flex;"><span>                logger <span style="color:#87ceeb">&#34;</span><span style="color:#eedd82">$LOG_PREFIX</span><span style="color:#87ceeb">: crontab stored settings conflict with &#34;</span><span style="color:#87ceeb">\
-</span></span></span><span style="display:flex;"><span><span style="color:#87ceeb"></span>                    <span style="color:#87ceeb">&#34;live settings; stored settings restored. &#34;</span><span style="color:#87ceeb">\
-</span></span></span><span style="display:flex;"><span><span style="color:#87ceeb"></span>                    <span style="color:#87ceeb">&#34;Previous settings recorded in ~/tmp/crontab-conflict-arch.&#34;</span>
+</span></span></span><span style="display:flex;"><span>                    <span style="color:#87ceeb">&#34;live settings; stored settings restored. &#34;</span><span style="color:#87ceeb">\
+</span></span></span><span style="display:flex;"><span>                    <span style="color:#87ceeb">&#34;Previous settings recorded in ~/tmp/crontab-conflict-arch.&#34;</span>
 </span></span><span style="display:flex;"><span>        <span style="color:#f00">fi</span>
 </span></span><span style="display:flex;"><span>    ;;
 </span></span></code></pre></div><h2 id="test-for-haskell">Test for Haskell</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-haskell" data-lang="haskell"><span style="display:flex;"><span><span style="color:#0f0">{-# LANGUAGE OverloadedStrings #-}</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-haskell" data-lang="haskell"><span style="display:flex;"><span><span style="color:#0f0">{-# LANGUAGE OverloadedStrings #-}</span>
 </span></span><span style="display:flex;"><span><span style="color:#f00">module</span> Main <span style="color:#f00">where</span>
 </span></span><span style="display:flex;"><span> 
 </span></span><span style="display:flex;"><span><span style="color:#0f0">--import Prelude hiding (id)</span>
@@ -567,7 +567,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 </span></span><span style="display:flex;"><span><span style="color:#ff0">sass</span> = getResourceString &gt;&gt;&gt; unixFilter <span style="color:#87ceeb">&#34;sass&#34;</span> [<span style="color:#87ceeb">&#34;-s&#34;</span>, <span style="color:#87ceeb">&#34;--scss&#34;</span>]
 </span></span><span style="display:flex;"><span>                         &gt;&gt;&gt; arr compressCss
 </span></span></code></pre></div><h2 id="test-for-php">Test for PHP</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-php" data-lang="php"><span style="display:flex;"><span>&lt;?php
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-php" data-lang="php"><span style="display:flex;"><span>&lt;?php
 </span></span><span style="display:flex;"><span><span style="color:#f00">require_once</span>(<span style="color:#eedd82">$GLOBALS</span>[<span style="color:#87ceeb">&#39;g_campsiteDir&#39;</span>]. <span style="color:#87ceeb">&#34;/</span><span style="color:#87ceeb">$ADMIN_DIR</span><span style="color:#87ceeb">/country/common.php&#34;</span>);
 </span></span><span style="display:flex;"><span><span style="color:#f00">require_once</span>(<span style="color:#eedd82">$GLOBALS</span>[<span style="color:#87ceeb">&#39;g_campsiteDir&#39;</span>]. <span style="color:#87ceeb">&#34;/classes/SimplePager.php&#34;</span>);
 </span></span><span style="display:flex;"><span>camp_load_translation_strings(<span style="color:#87ceeb">&#34;api&#34;</span>);
@@ -597,7 +597,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 </span></span><span style="display:flex;"><span>    &lt;/tr&gt;
 </span></span><span style="display:flex;"><span>&lt;/table&gt;
 </span></span></code></pre></div><h2 id="test-for-javascript">Test for Javascript</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#f00">import</span> isTypedArray from <span style="color:#87ceeb">&#39;lodash/isTypedArray&#39;</span>;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-js" data-lang="js"><span style="display:flex;"><span><span style="color:#f00">import</span> isTypedArray from <span style="color:#87ceeb">&#39;lodash/isTypedArray&#39;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#f00">import</span> reverse from <span style="color:#87ceeb">&#39;lodash/reverse&#39;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#f00">import</span> sortBy from <span style="color:#87ceeb">&#39;lodash/sortBy&#39;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#f00">import</span> take from <span style="color:#87ceeb">&#39;lodash/take&#39;</span>;
@@ -623,7 +623,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 </span></span><span style="display:flex;"><span>  <span style="color:#f00">return</span> topK;
 </span></span><span style="display:flex;"><span>};
 </span></span></code></pre></div><h2 id="test-for-html">Test for HTML</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#e5e5e5">&lt;!DOCTYPE html PUBLIC &#34;-//W3C//DTD HTML 4.01 Transitional//EN&#34;&gt;</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#e5e5e5">&lt;!DOCTYPE html PUBLIC &#34;-//W3C//DTD HTML 4.01 Transitional//EN&#34;&gt;</span>
 </span></span><span style="display:flex;"><span>&lt;html&gt;&lt;head&gt;
 </span></span><span style="display:flex;"><span>&lt;title&gt;A Tiny Page&lt;/title&gt;
 </span></span><span style="display:flex;"><span>&lt;style type=<span style="color:#87ceeb">&#34;text/css&#34;</span>&gt;
@@ -644,7 +644,7 @@ Monokai style - ported by Luigi Maselli - http://grigio.org
 </span></span><span style="display:flex;"><span>&lt;p&gt;Testing page&lt;/p&gt;
 </span></span><span style="display:flex;"><span>&lt;/body&gt;&lt;/html&gt;
 </span></span></code></pre></div><h2 id="test-for-css">Test for CSS</h2>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#0f0">/*
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#000;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-css" data-lang="css"><span style="display:flex;"><span><span style="color:#0f0">/*
 </span></span></span><span style="display:flex;"><span><span style="color:#0f0">Monokai style - ported by Luigi Maselli - http://grigio.org
 </span></span></span><span style="display:flex;"><span><span style="color:#0f0">*/</span>
 </span></span><span style="display:flex;"><span>.hljs {

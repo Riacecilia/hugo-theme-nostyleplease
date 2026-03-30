@@ -19,30 +19,5 @@ url="/documentation_samples/"
 [[entries]]
 title = "Contact"
 
-[[entries]]
-title = "all posts"
 
-  [entries.post_list]
-  limit = 5
-  show_more = true
-  show_more_text = "See archive..."
-  show_more_url = "posts"
 
-[[entries]]
-title = "another list"
-
-  [[entries.entries]]
-  title = "with subitems"
-
-    [[entries.entries.entries]]
-    title = "with subsubitems"
-
-    [[entries.entries.entries]]
-    title = "example page"
-    url = "about"
-
-[[entries]]
-title = "PRO TIP"
-entries = [
-   { title = "to edit this menu, edit data/menu.toml file" }
-  ]
