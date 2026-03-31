@@ -11,6 +11,7 @@ title = "info"
 
 [[entries]]
 title = "About me"
+url="/about_me/"
 
 [[entries]]
 title = "Technical Writing Documentation Samples"

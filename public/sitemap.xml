@@ -41,6 +41,8 @@
   </url><url>
     <loc>//localhost:1313/documentation_samples/api_mockdelivery/</loc>
   </url><url>
+    <loc>//localhost:1313/about_me/</loc>
+  </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
     <loc>//localhost:1313/tags/</loc>
