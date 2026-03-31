@@ -1,3 +1,5 @@
+title = 'Maria Cecilia | Technical Documentation Portfolio'
+
 [module]
   [module.hugoVersion]
     extended = true
