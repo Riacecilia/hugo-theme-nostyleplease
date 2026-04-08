@@ -1,5 +1,5 @@
 +++
-title= "Technical Writing Documentation Samples"
+title= "Technical Documentation Samples"
 draft= false
 +++
 
@@ -16,3 +16,6 @@ This page outlines selected documentation projects I have worked on.
 
 
 4. [Government documentation](/documentation_samples/government_documentation)
+
+
+5. Legacy documentation migration for medical devices software (ongoing, in French)
