@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Technical Documentation Samples on Maria Cecilia | Technical Documentation Portfolio</title>
+    <title>Technical Documentation Samples on Maria Cecilia | Portfolio</title>
     <link>//localhost:1313/documentation_samples/</link>
-    <description>Recent content in Technical Documentation Samples on Maria Cecilia | Technical Documentation Portfolio</description>
+    <description>Recent content in Technical Documentation Samples on Maria Cecilia | Portfolio</description>
     <generator>Hugo</generator>
     <language>en</language>
     <atom:link href="//localhost:1313/documentation_samples/index.xml" rel="self" type="application/rss+xml" />
