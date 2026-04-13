@@ -9,15 +9,17 @@ A new Javascript framework called Refract has been released. The team behind it 
 ---
 
 ## Solution
-I created a full documentation site using Docusaurus + Netlify.
+I created a full documentation site using Docusaurus + Netlify + Git.
 
 
-I focused on implementing these 5 things:
-- Clear Information Architecture that allows them to find information as fast as possible.
-- Wrote different types of docs: concepts, API reference and tutorials.
-- Including search capability with Algolia to support developers who read this way.
-- Maintaining coherent tone and language use using Vale Linter + Google Developers Style Guide.
-- Designed the visual identity for the product and implemented it using custom CSS.  
+I focused on improving findability. To achieve this, I: 
+- Designed a clear Information Architecture (IA).
+- Included search capability with Algolia to support developers who read information this way.
+- Added llms.txt to enhance docs findability for AI agents.
+- Converted developer pain points into docs content for maximum impact. 
+
+
+As a bonus, I designed the visual identity for the product and implemented it using custom CSS.  
 
 ---
 ## Live docs link
