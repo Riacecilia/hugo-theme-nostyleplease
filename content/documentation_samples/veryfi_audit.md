@@ -3,22 +3,28 @@ title= " Documentation Audit for Veryfi"
 draft= false
 +++
 
-# Project details 
+## Problem 
 
-Goal: The goal of this project was to do an audit of the entire product documentation for the company Veryfi.
-
-Company background: Veryfi is a business in the financial technology industry. Its products provide intelligent document processing for the finance industry.
-
-Deliverable:
-I audited their entire online documentation set (149 pages) for 3 of their products:
-- Data extractioni API
-- Veryfi Lens for mobile 
-- Veryfi lens for browser
+The Veryfi product documentation had accrued a significant 'maintainance debt'. 
 
 
-# Accomplishments
+A growing product range resulted in the following issues: 
+- A very large docs set 
+- Duplicated content
+- Outdated information
+- Inconsistent style and formatting
+
+---
+
+## Solution
+
+I produced an audit report that highlighted the problems, their impact and solutions to implement. 
 
 
-# Live docs link
+The report is organised in 3 main sections, which correspond to the 3 products developed by Veryfi. 
+
+---
+
+## Live docs link
 
 You can [view the audit report](https://docs.google.com/document/d/1dAB3HAuqQGcxgFCCkJBz3hs63Qx6JmB6xqq1DT4ay5U/edit?usp=sharing)
