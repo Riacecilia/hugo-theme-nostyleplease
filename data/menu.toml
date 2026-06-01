@@ -1,15 +1,4 @@
 [[entries]]
-title = "info"
-
-  [[entries.entries]]
-  title = "a (nearly) no-CSS, fast, minimalist Hugo theme ported from <a href='https://github.com/riggraz/no-style-please'>riggraz/no-style-please</a>."
-
-  [[entries.entries]]
-  title = "github repo"
-  url = "https://github.com/hanwenguo/hugo-theme-nostyleplease"
-
-
-[[entries]]
 title = "About me"
 url="/about_me/"
 
