@@ -25,6 +25,16 @@ Hi! I'm Maria Cecilia, a specialist in technical documentation and information d
 - **Version control**: Git
 - **Documentation tools**: Postman, Swagger, Visual Studio Code
 
+---
 
+## About this portfolio
 
+This portfolio is built following a Docs-as-Code workflow to mimic modern engineering environments.
 
+Static Site Generator: Built using Hugo for fast compilation, clean content architecture, and local development flexibility.
+
+Content & Formatting: Written entirely in Markdown, utilizing custom Markdown Render Hooks in Go templates to dynamically manage link behaviors and HTML attributes.
+
+Version Control: Managed via Git and hosted on Netlify, allowing for seamless tracking of documentation updates and deployment pipelines.
+
+Theme is by [hanwenguo/hugo-theme-nostyleplease](https://github.com/hanwenguo/hugo-theme-nostyleplease?tab=readme-ov-file)
