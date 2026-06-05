@@ -1,38 +1,29 @@
 +++
-title= " Government documentation"
+title= " Policy updates for a government immigration website"
 draft= false
 +++
 
 ## Problem
 
-The National Director General for Aliens Policing is the Hungarian authority that examines foreigners to live in Hungary. Their website  is the official source of documentation that foreigners rely on when making visa, residency, asylum or citizenship applications. 
-
-In February 2025, the NDGCP issued the following government factsheet/administrative update.It's purpose was to communicate the change in procedure. 
-
-I noticed the following issues:
-- Formatting: small font, overuse of bold type, chunky paragraphs
-- Long sentences
-- Lack of structure
-- Unclear who the target is 
-- Long and confusing title
+The National Directorate-General for Aliens Policing handles all visa, residency, and citizenship applications for foreigners in Hungary. In February 2025, they released an official update about important procedural changes, but the document was poorly formatted, unstructured, and hard to read.
 
 ---
 
 ## The Solution
-I edited and re-designed the government circular with respect to document design principles.
+I edited and redesigned the government circular with respect to document design principles.
 
 Changes made:
 - Converted the factsheet into 2 different documentation types:
-    - A poster: 1 page, contains essential information, can be posted in a government office.
-    - Knowledge base article: Contains comprehensive documentation, meant to be hosted online, and integrated into the official website as perennial content. 
-
-- Increased the white space
-- Used headings to create structure.
-- Provided a concrete example of a correct remittance advice to prevent user errors.
+    - A poster: 1 page, contains essential information, designed to be stuck on a noticeboard outside a government office.
+    - Website page: Contains comprehensive information, meant to be hosted online and integrated into the official website as perennial content. 
+- Improved formatting : using headings, adding white space and providing examples for citizens to follow. 
 
 ---
 
 ## Live docs link
-[View the poster](https://www.canva.com/design/DAGtOf6LBuI/JEQe-cghO9GBsoqOLAZIJA/view?utm_content=DAGtOf6LBuI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he739878d8f) 
 
-[View the service description/ knowledge base article](https://www.canva.com/design/DAGtOVOnmpg/lSjJQV0EszuDLUbV4GKtTA/view?utm_content=DAGtOVOnmpg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he683028afa) 
+[View the original policy update](https://www.canva.com/design/DAHLrMy9CnA/SHDwg_NB_WXooGaT4ntWVQ/view?utm_content=DAHLrMy9CnA&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h1774289944)
+
+[View the improved policy update poster](https://www.canva.com/design/DAGtOf6LBuI/JEQe-cghO9GBsoqOLAZIJA/view?utm_content=DAGtOf6LBuI&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he739878d8f) 
+
+[View the improved policy update website page](https://www.canva.com/design/DAGtOVOnmpg/lSjJQV0EszuDLUbV4GKtTA/view?utm_content=DAGtOVOnmpg&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he683028afa) 
