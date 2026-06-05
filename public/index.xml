@@ -30,7 +30,7 @@
       <description>&lt;h2 id=&#34;problem&#34;&gt;Problem&lt;/h2&gt;&#xA;&lt;p&gt;A delivery company has just launched their REST API. They need documentation that can be used by various stakeholders.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;solution&#34;&gt;Solution&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;I tested the API using Postman to make sure all endpoints were working as expected.&lt;/li&gt;&#xA;&lt;li&gt;Created API reference documentation using the Open API Specification (OAS) 3.0&lt;/li&gt;&#xA;&lt;li&gt;Hosted the complete API reference and concept documentation on Gitbook.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;live-docs-link&#34;&gt;Live docs link&lt;/h2&gt;&#xA;&lt;p&gt;View the &lt;a href=&#34;https://ria.gitbook.io/ria-docs/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mock Delivery API documentation&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;The API was created by Wisdom Nwokocha, creator of the Technical Writing Mentorship Program.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Product documentation</title>
+      <title>Developer documentation portal for a front-end framework</title>
       <link>//localhost:1313/documentation_samples/product_refract/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/documentation_samples/product_refract/</guid>

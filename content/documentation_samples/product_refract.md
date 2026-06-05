@@ -1,5 +1,5 @@
 +++
-title= "Product documentation"
+title= "Developer documentation portal for a front-end framework"
 draft= false
 +++
 
