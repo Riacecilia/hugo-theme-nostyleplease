@@ -12,10 +12,10 @@ This page outlines selected documentation projects I have worked on.
 - [Veryfi documentation audit](/documentation_samples/veryfi_audit)
 
 
-3. [Product documentation for the Saas industry](/documentation_samples/product_refract)
+3. [Developer documentation portal for a front-end framework](/documentation_samples/product_refract)
 
 
-4. [Government documentation](/documentation_samples/government_documentation)
+4. [Policy updates for a government immigration website](/documentation_samples/government_documentation)
 
 
 5. Legacy documentation migration for medical devices software (ongoing, in French)
